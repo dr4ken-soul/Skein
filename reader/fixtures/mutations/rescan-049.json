@@ -1,0 +1,31 @@
+{
+  "drawer": "Juniper Goods",
+  "payer": "Forgefield Metals Inc",
+  "currency": "USD",
+  "total": "96620.00",
+  "issuedOn": "2026-01-19",
+  "dueOn": "2026-02-19",
+  "reference": "NG-2300",
+  "lines": [
+    {
+      "description": "Freight services batch 10",
+      "quantity": "6",
+      "unitPrice": "1650.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1070.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "lNVOlCE  NG-2300  |  Juniper  G00ds  t0  F0rgefield  Met@ls  lnc  |  T0t@l  96557.00  USD  |  lssued  2026-01-19",
+  "mutationClass": "rescan",
+  "baseReference": "NG-2300"
+}

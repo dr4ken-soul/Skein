@@ -1,0 +1,24 @@
+{
+  "drawer": "Distinct Supplier D Ltd",
+  "payer": "Northgate Freight Ltd",
+  "currency": "USD",
+  "total": "26350.00",
+  "issuedOn": "2026-04-14",
+  "dueOn": "2026-05-14",
+  "reference": "DIST-7003",
+  "lines": [
+    {
+      "description": "Unique service type 4 alpha",
+      "quantity": "1",
+      "unitPrice": "1100.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.94,
+    "payer": 0.96,
+    "total": 0.93,
+    "reference": 0.97
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE DIST-7003 | Distinct Supplier D to Northgate Freight Ltd"
+}

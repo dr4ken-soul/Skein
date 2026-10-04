@@ -1,0 +1,31 @@
+{
+  "drawer": "Ironwood Supply",
+  "payer": "Axiom Distribution",
+  "currency": "USD",
+  "total": "95240.00",
+  "issuedOn": "2026-09-18",
+  "dueOn": "2026-01-18",
+  "reference": "NG-2299",
+  "lines": [
+    {
+      "description": "Freight services batch 9",
+      "quantity": "5",
+      "unitPrice": "1600.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1040.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "--- REFORMATTED LAYOUT ---\nRef: NG-2299\nFrom: Ironwood Supply\nTo: Axiom Distribution\nAmount: 95240.00\nDate: 2026-09-18 | Due: 2026-01-18\n--- END REFORMATTED ---",
+  "mutationClass": "reformat",
+  "baseReference": "NG-2299"
+}

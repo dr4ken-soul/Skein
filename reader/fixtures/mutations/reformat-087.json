@@ -1,0 +1,31 @@
+{
+  "drawer": "Riverside Trading",
+  "payer": "Ironclad Construction Ltd",
+  "currency": "USD",
+  "total": "107560.00",
+  "issuedOn": "2026-09-27",
+  "dueOn": "2026-01-27",
+  "reference": "NG-2308",
+  "lines": [
+    {
+      "description": "Freight services batch 18",
+      "quantity": "4",
+      "unitPrice": "2050.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1310.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "--- REFORMATTED LAYOUT ---\nRef: NG-2308\nFrom: Riverside Trading\nTo: Ironclad Construction Ltd\nAmount: 107560.00\nDate: 2026-09-27 | Due: 2026-01-27\n--- END REFORMATTED ---",
+  "mutationClass": "reformat",
+  "baseReference": "NG-2308"
+}

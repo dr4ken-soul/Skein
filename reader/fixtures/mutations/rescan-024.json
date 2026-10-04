@@ -1,0 +1,31 @@
+{
+  "drawer": "Everest Components",
+  "payer": "Halcyon Retail Group",
+  "currency": "USD",
+  "total": "89720.00",
+  "issuedOn": "2026-05-14",
+  "dueOn": "2026-06-14",
+  "reference": "NG-2295",
+  "lines": [
+    {
+      "description": "Freight services batch 5",
+      "quantity": "6",
+      "unitPrice": "1400.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "920.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "lNVOlCE  NG-2295  |  Everest  C0mp0nents  t0  H@lcy0n  Ret@il  Gr0up  |  T0t@l  89692.00  USD  |  lssued  2026-05-14",
+  "mutationClass": "rescan",
+  "baseReference": "NG-2295"
+}

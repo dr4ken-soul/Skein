@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-04T19:15:58.808Z",
+  "replay": true,
+  "classes": [
+    {
+      "name": "rename",
+      "count": 20,
+      "skeinCaught": 20,
+      "plainHashCaught": 0
+    },
+    {
+      "name": "reformat",
+      "count": 20,
+      "skeinCaught": 20,
+      "plainHashCaught": 0
+    },
+    {
+      "name": "round",
+      "count": 20,
+      "skeinCaught": 20,
+      "plainHashCaught": 19
+    },
+    {
+      "name": "rescan",
+      "count": 20,
+      "skeinCaught": 20,
+      "plainHashCaught": 0
+    },
+    {
+      "name": "reissue",
+      "count": 20,
+      "skeinCaught": 0,
+      "plainHashCaught": 0
+    }
+  ],
+  "falsePositives": {
+    "distinctInvoices": 20,
+    "collisions": 0
+  },
+  "totals": {
+    "mutations": 100,
+    "skeinCaught": 80,
+    "plainHashCaught": 19
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.next/
+out/
+coverage/
+.env
+.env.local
+*.log
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+web/public/skein-still.webp.tmp
+reader/result/benchmark.json.sha256.tmp
+.DS_Store
+.vercel
+*.tsbuildinfo

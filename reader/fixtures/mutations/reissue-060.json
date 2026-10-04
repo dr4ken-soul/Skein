@@ -1,0 +1,31 @@
+{
+  "drawer": "Liberty Fabrics",
+  "payer": "Summit Agriculture",
+  "currency": "USD",
+  "total": "99380.00",
+  "issuedOn": "2026-03-21",
+  "dueOn": "2026-04-21",
+  "reference": "RE-5059",
+  "lines": [
+    {
+      "description": "Freight services batch 12",
+      "quantity": "3",
+      "unitPrice": "1750.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1130.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE RE-5059 | Liberty Fabrics to Summit Agriculture | Total 99303.00 USD | Issued 2026-03-21",
+  "mutationClass": "reissue",
+  "baseReference": "NG-2302"
+}

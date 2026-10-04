@@ -1,0 +1,29 @@
+{
+  "drawer": "Pinnacle Steel",
+  "payer": "Sterling Pharma Corp",
+  "currency": "USD",
+  "total": "104800.00",
+  "issuedOn": "2026-07-25",
+  "dueOn": "2026-08-25",
+  "reference": "NG-2306",
+  "lines": [
+    {
+      "description": "Freight services batch 16",
+      "quantity": "2",
+      "unitPrice": "1950.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1250.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE NG-2306 | Pinnacle Steel to Sterling Pharma Corp | Total 104795.00 USD | Issued 2026-07-25"
+}

@@ -1,0 +1,31 @@
+{
+  "drawer": "Omega Supplies",
+  "payer": "Harrowfield Foods",
+  "currency": "USD",
+  "total": "103520",
+  "issuedOn": "2026-06-24",
+  "dueOn": "2026-07-24",
+  "reference": "NG-2305",
+  "lines": [
+    {
+      "description": "Freight services batch 15",
+      "quantity": "6",
+      "unitPrice": "1900.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1220.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE NG-2305 | Omega Supplies to Harrowfield Foods | Total 103422.00 USD | Issued 2026-06-24",
+  "mutationClass": "round",
+  "baseReference": "NG-2305"
+}

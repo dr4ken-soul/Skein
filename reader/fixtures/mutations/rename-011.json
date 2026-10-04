@@ -1,0 +1,31 @@
+{
+  "drawer": "CARDINAL FREIGHT",
+  "payer": "MERIDIAN LOGISTICS GMBH",
+  "currency": "USD",
+  "total": "86960.00",
+  "issuedOn": "2026-03-12",
+  "dueOn": "2026-04-12",
+  "reference": "NG-2293",
+  "lines": [
+    {
+      "description": "Freight services batch 3",
+      "quantity": "4",
+      "unitPrice": "1300.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "860.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE NG-2293 | CARDINAL FREIGHT Inc. to MERIDIAN LOGISTICS GMBH Limited | Total 86946.00 USD | Issued 2026-03-12",
+  "mutationClass": "rename",
+  "baseReference": "NG-2293"
+}

@@ -1,0 +1,31 @@
+{
+  "drawer": "Beacon Industrial",
+  "payer": "Aurelia Trading Co",
+  "currency": "USD",
+  "total": "85580.00",
+  "issuedOn": "2026-02-11",
+  "dueOn": "2026-03-11",
+  "reference": "RE-5009",
+  "lines": [
+    {
+      "description": "Freight services batch 2",
+      "quantity": "3",
+      "unitPrice": "1250.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "830.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE RE-5009 | Beacon Industrial to Aurelia Trading Co | Total 85573.00 USD | Issued 2026-02-11",
+  "mutationClass": "reissue",
+  "baseReference": "NG-2292"
+}

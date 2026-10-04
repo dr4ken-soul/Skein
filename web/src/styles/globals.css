@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700&family=Fragment+Mono:ital@0;1&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #fdfcf8;
+  --bg-secondary: #f5f3ee;
+  --bg-tertiary: #ebe8e1;
+  --text-primary: #1a1a18;
+  --text-secondary: #6b6b63;
+  --text-tertiary: #9a9a93;
+  --accent: #c45a1a;
+  --accent-hover: #a84c16;
+  --accent-muted: #f0ddd0;
+  --border: #e8e5de;
+  --border-strong: #d4d0c7;
+  --success: #2d6a4f;
+  --error: #9b2226;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+}
+
+@theme inline {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-tertiary: var(--bg-tertiary);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent: var(--accent);
+  --font-sans: 'Schibsted Grotesk', system-ui, sans-serif;
+  --font-mono: 'Fragment Mono', monospace;
+  --font-serif: 'Schibsted Grotesk', serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Schibsted Grotesk', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection {
+    background: var(--accent-muted);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

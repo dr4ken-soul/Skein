@@ -1,0 +1,31 @@
+{
+  "drawer": "QUANTUM MATERIALS",
+  "payer": "WESTFIELD UTILITIES",
+  "currency": "USD",
+  "total": "106180.00",
+  "issuedOn": "2026-08-26",
+  "dueOn": "2026-09-26",
+  "reference": "NG-2307",
+  "lines": [
+    {
+      "description": "Freight services batch 17",
+      "quantity": "3",
+      "unitPrice": "2000.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1280.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE NG-2307 | QUANTUM MATERIALS Inc. to WESTFIELD UTILITIES Limited | Total 106168.00 USD | Issued 2026-08-26",
+  "mutationClass": "rename",
+  "baseReference": "NG-2307"
+}

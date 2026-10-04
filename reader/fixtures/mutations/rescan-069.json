@@ -1,0 +1,31 @@
+{
+  "drawer": "Northstar Equipment",
+  "payer": "NovaTech Solutions Inc",
+  "currency": "USD",
+  "total": "102140.00",
+  "issuedOn": "2026-05-23",
+  "dueOn": "2026-06-23",
+  "reference": "NG-2304",
+  "lines": [
+    {
+      "description": "Freight services batch 14",
+      "quantity": "5",
+      "unitPrice": "1850.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1190.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "lNVOlCE  NG-2304  |  N0rthst@r  Equipment  t0  N0v@Tech  S0luti0ns  lnc  |  T0t@l  102049.00  USD  |  lssued  2026-05-23",
+  "mutationClass": "rescan",
+  "baseReference": "NG-2304"
+}

@@ -1,0 +1,31 @@
+{
+  "drawer": "Stonebridge Works",
+  "payer": "Prism Media Group",
+  "currency": "USD",
+  "total": "108940.00",
+  "issuedOn": "2026-01-28",
+  "dueOn": "2026-02-28",
+  "reference": "NG-2309",
+  "lines": [
+    {
+      "description": "Freight services batch 19",
+      "quantity": "5",
+      "unitPrice": "2100.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1340.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "lNVOlCE  NG-2309  |  St0nebridge  W0rks  t0  Prism  Medi@  Gr0up  |  T0t@l  108914.00  USD  |  lssued  2026-01-28",
+  "mutationClass": "rescan",
+  "baseReference": "NG-2309"
+}

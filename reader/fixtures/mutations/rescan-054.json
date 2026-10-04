@@ -1,0 +1,31 @@
+{
+  "drawer": "Keystone Parts",
+  "payer": "Bluewater Shipping LLC",
+  "currency": "EUR",
+  "total": "98000.00",
+  "issuedOn": "2026-02-20",
+  "dueOn": "2026-03-20",
+  "reference": "NG-2301",
+  "lines": [
+    {
+      "description": "Freight services batch 11",
+      "quantity": "2",
+      "unitPrice": "1700.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1100.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "lNVOlCE  NG-2301  |  Keyst0ne  P@rts  t0  Bluew@ter  Shipping  LLC  |  T0t@l  97930.00  EUR  |  lssued  2026-02-20",
+  "mutationClass": "rescan",
+  "baseReference": "NG-2301"
+}

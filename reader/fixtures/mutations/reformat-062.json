@@ -1,0 +1,31 @@
+{
+  "drawer": "Magnum Tools",
+  "payer": "Echelon Security Ltd",
+  "currency": "USD",
+  "total": "100760.00",
+  "issuedOn": "2026-04-22",
+  "dueOn": "2026-05-22",
+  "reference": "NG-2303",
+  "lines": [
+    {
+      "description": "Freight services batch 13",
+      "quantity": "4",
+      "unitPrice": "1800.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1160.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "--- REFORMATTED LAYOUT ---\nRef: NG-2303\nFrom: Magnum Tools\nTo: Echelon Security Ltd\nAmount: 100760.00\nDate: 2026-04-22 | Due: 2026-05-22\n--- END REFORMATTED ---",
+  "mutationClass": "reformat",
+  "baseReference": "NG-2303"
+}

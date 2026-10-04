@@ -1,0 +1,29 @@
+{
+  "drawer": "Tidewater Supply",
+  "payer": "Evergreen Hospitality",
+  "currency": "USD",
+  "total": "110320.00",
+  "issuedOn": "2026-02-10",
+  "dueOn": "2026-03-10",
+  "reference": "NG-2310",
+  "lines": [
+    {
+      "description": "Freight services batch 20",
+      "quantity": "6",
+      "unitPrice": "2150.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1370.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE NG-2310 | Tidewater Supply to Evergreen Hospitality | Total 110287.00 USD | Issued 2026-02-10"
+}

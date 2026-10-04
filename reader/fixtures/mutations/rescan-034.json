@@ -1,0 +1,31 @@
+{
+  "drawer": "Granite Materials",
+  "payer": "Orion Build Systems",
+  "currency": "USD",
+  "total": "92480.00",
+  "issuedOn": "2026-07-16",
+  "dueOn": "2026-08-16",
+  "reference": "NG-2297",
+  "lines": [
+    {
+      "description": "Freight services batch 7",
+      "quantity": "3",
+      "unitPrice": "1500.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "980.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "lNVOlCE  NG-2297  |  Gr@nite  M@teri@ls  t0  Ori0n  Build  Systems  |  T0t@l  92438.00  USD  |  lssued  2026-07-16",
+  "mutationClass": "rescan",
+  "baseReference": "NG-2297"
+}

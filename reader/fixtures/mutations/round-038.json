@@ -1,0 +1,31 @@
+{
+  "drawer": "Harbor Trading",
+  "payer": "Lumen Textiles BV",
+  "currency": "USD",
+  "total": "93860",
+  "issuedOn": "2026-08-17",
+  "dueOn": "2026-09-17",
+  "reference": "NG-2298",
+  "lines": [
+    {
+      "description": "Freight services batch 8",
+      "quantity": "4",
+      "unitPrice": "1550.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1010.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE NG-2298 | Harbor Trading to Lumen Textiles BV | Total 93811.00 USD | Issued 2026-08-17",
+  "mutationClass": "round",
+  "baseReference": "NG-2298"
+}

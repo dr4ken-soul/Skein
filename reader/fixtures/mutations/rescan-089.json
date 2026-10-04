@@ -1,0 +1,31 @@
+{
+  "drawer": "Riverside Trading",
+  "payer": "Ironclad Construction Ltd",
+  "currency": "USD",
+  "total": "107560.00",
+  "issuedOn": "2026-09-27",
+  "dueOn": "2026-01-27",
+  "reference": "NG-2308",
+  "lines": [
+    {
+      "description": "Freight services batch 18",
+      "quantity": "4",
+      "unitPrice": "2050.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "1310.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "lNVOlCE  NG-2308  |  Riverside  Tr@ding  t0  lr0ncl@d  C0nstructi0n  Ltd  |  T0t@l  107541.00  USD  |  lssued  2026-09-27",
+  "mutationClass": "rescan",
+  "baseReference": "NG-2308"
+}

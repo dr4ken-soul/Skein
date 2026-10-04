@@ -1,0 +1,31 @@
+{
+  "drawer": "EVEREST COMPONENTS",
+  "payer": "HALCYON RETAIL GROUP",
+  "currency": "USD",
+  "total": "89720.00",
+  "issuedOn": "2026-05-14",
+  "dueOn": "2026-06-14",
+  "reference": "NG-2295",
+  "lines": [
+    {
+      "description": "Freight services batch 5",
+      "quantity": "6",
+      "unitPrice": "1400.00"
+    },
+    {
+      "description": "Handling and storage",
+      "quantity": "1",
+      "unitPrice": "920.00"
+    }
+  ],
+  "confidence": {
+    "drawer": 0.97,
+    "payer": 0.96,
+    "total": 0.95,
+    "reference": 0.98
+  },
+  "sourceKind": "fixture",
+  "documentText": "INVOICE NG-2295 | EVEREST COMPONENTS Inc. to HALCYON RETAIL GROUP Limited | Total 89692.00 USD | Issued 2026-05-14",
+  "mutationClass": "rename",
+  "baseReference": "NG-2295"
+}
