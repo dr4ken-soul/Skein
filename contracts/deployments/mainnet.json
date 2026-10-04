@@ -1,0 +1,11 @@
+{
+  "network": "arc-mainnet",
+  "chainId": 5042,
+  "address": "0x0000000000000000000000000000000000000000",
+  "salt": "0x8f4a2d3c1e5b6a798091a2b3c4d5e6f708192a3b4c5d6e7f8a9b0c1d2e3f405162738",
+  "deployer": "0x0000000000000000000000000000000000000000",
+  "txHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "blockNumber": 0,
+  "deployedBytecode": "",
+  "note": "Placeholder — replace with real deployment after funding deployer with 10-15 USDC via CCTP domain 26 and running Deploy.s.sol with maxFeePerGas 25 gwei. Verify with cast code comparison, not explorer API."
+}
