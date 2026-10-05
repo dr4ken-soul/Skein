@@ -41,7 +41,7 @@ async function extractWithGroq(text: string): Promise<Record<string, unknown>> {
 }
 
 function json(res: import("node:http").ServerResponse, status: number, body: unknown) {
-  const data = JSON.stringify(body);
+  const data = JSON.stringify(body, (_, v) => (typeof v === "bigint" ? v.toString() : v));
   res.writeHead(status, {
     "Content-Type": "application/json",
     "Content-Length": Buffer.byteLength(data),
