@@ -6,9 +6,10 @@ import type { ExtractedInvoice } from "../types.js";
  * (https://api.groq.com/openai/v1) so we reuse the `openai` SDK with a
  * different baseURL. Get a key at https://console.groq.com/keys
  *
- * Default model is `llama-3.1-8b-instant` (strong + available on free tier).
- * You can override with `GROQ_MODEL` env var. Larger alternative:
- * `llama-3.3-70b-versatile` may be unavailable. Vision variant for scanned invoices:
+ * Default model is `openai/gpt-oss-20b` (verified available 2026-10-05).
+ * You can override with `GROQ_MODEL` env var. Alternatives:
+ * `qwen/qwen3.8-27b` also works. Legacy Llama models (3.1/3.3) are decommissioned.
+ * Vision variant for scanned invoices:
  * `llama-3.2-11b-vision-preview` (pass image base64, not yet wired in MVP).
  */
 export class GroqProvider implements ExtractionProvider {
@@ -17,7 +18,7 @@ export class GroqProvider implements ExtractionProvider {
 
   constructor(apiKey?: string, model?: string) {
     this.apiKey = apiKey ?? process.env.GROQ_API_KEY ?? "";
-    this.model = model ?? process.env.GROQ_MODEL ?? "llama-3.1-8b-instant";
+    this.model = model ?? process.env.GROQ_MODEL ?? "openai/gpt-oss-20b";
   }
 
   async extract(input: Uint8Array | string, _mimeType: string): Promise<ExtractedInvoice> {

@@ -6,7 +6,7 @@
  * - POST /fingerprint   { invoice } -> canonical + fingerprint + invoiceId
  * - POST /benchmark     run benchmark (replay only)
  *
- * Env: GROQ_API_KEY, GROQ_MODEL (default llama-3.1-8b-instant), SKEIN_REPLAY (0 live, 1 replay),
+ * Env: GROQ_API_KEY, GROQ_MODEL (default openai/gpt-oss-20b), SKEIN_REPLAY (0 live, 1 replay),
  *      PORT (Render sets it), SKEIN_SALT.
  */
 import { createServer } from "node:http";
@@ -23,7 +23,7 @@ async function extractWithGroq(text: string): Promise<Record<string, unknown>> {
   if (!key) throw new Error("GROQ_API_KEY not set");
   const OpenAI = (await import("openai")).default;
   const client = new OpenAI({ apiKey: key, baseURL: "https://api.groq.com/openai/v1" });
-  const model = process.env.GROQ_MODEL || "llama-3.1-8b-instant";
+  const model = process.env.GROQ_MODEL || "openai/gpt-oss-20b";
   const res = await client.chat.completions.create({
     model,
     messages: [

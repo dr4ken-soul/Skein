@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
           apiKey: process.env.GROQ_API_KEY,
           baseURL: "https://api.groq.com/openai/v1",
         });
-        const model = process.env.GROQ_MODEL || "llama-3.1-8b-instant";
+        const model = process.env.GROQ_MODEL || "openai/gpt-oss-20b";
         const completion = await client.chat.completions.create({
           model,
           messages: [
