@@ -11,7 +11,7 @@ export function getWagmiConfig() {
     ssr: true,
     storage: createStorage({ storage: cookieStorage }),
     transports: {
-      [arcMainnet.id]: fallback([http(RPC_URL), http("https://rpc.testnet.arc.io")]),
+      [arcMainnet.id]: fallback([http(RPC_URL), http("https://rpc.mainnet.arc.io")]),
     },
     connectors: [
       injected(),

@@ -7,7 +7,7 @@ export const arcMainnet = defineChain({
   network: "arc-mainnet",
   nativeCurrency: { name: "USDC", symbol: "USDC", decimals: 18 },
   rpcUrls: {
-    default: { http: ["https://rpc.mainnet.arc.io"] },
+    default: { http: ["https://arc-mainnet.g.alchemy.com/v2/alch_PSz9cPwjUFKJ0jJ2fsiqn"] },
     public: { http: ["https://rpc.mainnet.arc.io"] },
   },
   blockExplorers: {
@@ -42,5 +42,5 @@ export function fromNativeUsdc(wei: bigint): string {
 
 export const REGISTRY_ADDRESS = (process.env.NEXT_PUBLIC_REGISTRY_ADDRESS || "0x0000000000000000000000000000000000000000") as `0x${string}`;
 export const REGISTRY_SALT = (process.env.NEXT_PUBLIC_SALT || "0x8f4a2d3c1e5b6a798091a2b3c4d5e6f708192a3b4c5d6e7f8a9b0c1d2e3f405162738") as `0x${string}`;
-export const RPC_URL = process.env.NEXT_PUBLIC_RPC_URL || "https://rpc.mainnet.arc.io";
+export const RPC_URL = process.env.NEXT_PUBLIC_RPC_URL || "https://arc-mainnet.g.alchemy.com/v2/alch_PSz9cPwjUFKJ0jJ2fsiqn";
 export const EXPLORER_URL = process.env.NEXT_PUBLIC_EXPLORER_URL || "https://explorer.arc.io";

@@ -16,5 +16,5 @@ runs = 128
 depth = 32
 
 [rpc_endpoints]
-arc = "https://rpc.mainnet.arc.io"
-arcTestnet = "https://rpc.testnet.arc.io"
+arc = "https://arc-mainnet.g.alchemy.com/v2/alch_PSz9cPwjUFKJ0jJ2fsiqn"
+arcTestnet = "https://rpc.mainnet.arc.io"
