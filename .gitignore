@@ -14,3 +14,4 @@ reader/result/benchmark.json.sha256.tmp
 .DS_Store
 .vercel
 *.tsbuildinfo
+.env.vercel.tmp
