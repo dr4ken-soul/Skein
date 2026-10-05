@@ -11,16 +11,12 @@ services:
       - key: NODE_VERSION
         value: 20
       - key: SKEIN_REPLAY
-        value: 0
         sync: false
       - key: GROQ_API_KEY
         sync: false
       - key: GROQ_MODEL
-        value: llama-3.3-70b-versatile
         sync: false
       - key: SKEIN_SALT
-        value: 0x8f4a2d3c1e5b6a798091a2b3c4d5e6f708192a3b4c5d6e7f8a9b0c1d2e3f405162738
         sync: false
       - key: NEXT_PUBLIC_SALT
-        value: 0x8f4a2d3c1e5b6a798091a2b3c4d5e6f708192a3b4c5d6e7f8a9b0c1d2e3f405162738
         sync: false
